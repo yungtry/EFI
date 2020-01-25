@@ -40,9 +40,13 @@ Under boot options: Disabled CSM, Enabled Above 4G
 
 ## Useful post-install apps
 
+* [MountEFI](https://github.com/corpnewt/MountEFI)
+
 * [ProperTree](https://github.com/corpnewt/ProperTree) - Cross platform GUI plist editor written in python
 
 * [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS) - Py script that uses acidanthera's macserial to generate SMBIOS and optionally saves them to a plist.
+
+* [iasl](https://github.com/RehabMan/Intel-iasl)
 
 * [TL-WN725N Driver](https://www.tp-link.com/en/support/download/tl-wn725n/)
 
