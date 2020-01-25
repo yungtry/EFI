@@ -35,6 +35,10 @@ Compiled my own [SSDT-EC-USBX.dsl](https://github.com/yungtry/EFI/blob/master/EF
 
 [Nothing interesting tbh.](https://github.com/yungtry/EFI/tree/master/EFI/OC/Kexts)
 
+## UEFI settings
+
+Under boot options: Disabled CSM, Enabled Above 4G
+
 ## Post-install apps
 
 *To be updated*
