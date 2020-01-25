@@ -1,3 +1,5 @@
+![preview](https://raw.githubusercontent.com/yungtry/EFI/master/screenshot.png)
+
 # EFI
  Vanilla AMD Ryzen OpenCore config for my hackintosh 🏴‍☠️ 
 ## Specs
