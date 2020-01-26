@@ -19,6 +19,8 @@
 
 * **Bluetooth:** Asus BT400
 
+* **Audio:** Behringer UCA202
+
 ## config.plist
 
 Edited sample.plist from OpenCorePKG/Docs.
