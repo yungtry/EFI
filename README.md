@@ -29,7 +29,7 @@ I've followed [that](https://khronokernel-2.gitbook.io/opencore-vanilla-desktop-
 
 ~~1. Disabled GTX 1060 - Root -> DeviceProperties -> Add -> `PciRoot(0x0)/Pci(0x3,0x1)/Pci(0x0,0x0)`~~
 
-1. If you use non-uefi gpu (such as GTX 670) as your main card, then enable CSM in your bios and add `npci=0x2000` to your boot arguments.
+1. If you use non-uefi gpu (such as GTX 670) as your main card, then enable CSM in your UEFI and add `npci=0x2000` to your boot arguments.
 2. Added built-in Realtek ethernet to make iServices work: Root -> DeviceProperties -> Add -> `PciRoot(0x0)/Pci(0x1,0x3)/Pci(0x0,0x2)/Pci(0x1,0x0)/Pci(0x0,0x0)`
 
 ## SSDTs
