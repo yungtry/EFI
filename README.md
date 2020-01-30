@@ -27,7 +27,9 @@ Edited sample.plist from OpenCorePKG/Docs.
 
 I've followed [that](https://khronokernel-2.gitbook.io/opencore-vanilla-desktop-guide/amd-config.plist/amd-config) tutorial with few minor changes:
 
-1. Disabled GTX 1060 - Root -> DeviceProperties -> Add -> `PciRoot(0x0)/Pci(0x3,0x1)/Pci(0x0,0x0)`
+~~1. Disabled GTX 1060 - Root -> DeviceProperties -> Add -> `PciRoot(0x0)/Pci(0x3,0x1)/Pci(0x0,0x0)`~~
+
+1. If you use non-uefi gpu (such as GTX 670) as your main card, then enable CSM in your bios and add `npci=0x2000` to your boot arguments.
 2. Added built-in Realtek ethernet to make iServices work: Root -> DeviceProperties -> Add -> `PciRoot(0x0)/Pci(0x1,0x3)/Pci(0x0,0x2)/Pci(0x1,0x0)/Pci(0x0,0x0)`
 
 ## SSDTs
@@ -40,7 +42,8 @@ Compiled my own [SSDT-EC-USBX.dsl](https://github.com/yungtry/EFI/blob/master/EF
 
 ## UEFI settings
 
-Under boot options: Disabled CSM, Enabled Above 4G
+If you use non-uefi gpu (such as GTX 670) as your main card, then enable CSM in your bios and add `npci=0x2000` to your boot arguments. 
+If your card is uefi-compatible then disable CSM and enable above 4G in UEFI.
 
 ## Useful post-install apps
 
